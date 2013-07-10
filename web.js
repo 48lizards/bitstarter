@@ -6,7 +6,7 @@ var indexBuffer = fs.readFileSync('index.html');
 var indexString = indexBuffer.toString();
 
 app.get('/', function(request, response) {
-  response.send('indexString');
+  response.send(indexString);
 });
 
 var port = process.env.PORT || 5000;
