@@ -73,23 +73,14 @@
         color: white;
       }
 
-      .navigation, .pitch, .section1, .section2, .faq, .footer {
-        padding 10px 0px 10px 0px;
+      /* Marketing Copy and Footer */
+      .copy {
+        padding-top:2.5%;
+        padding-bottom: 2.5%
+        text-align: justify;
       }
-      .video, .thermometer, .order, .social {
-        border: 1px dotted;
-        text-align: center;
-      }
-      .video {
-        height: 124px;
-        line-height: 124px;
-      }
-      .thermometer, .order, .social {
-        height: 40px;
-        line-height: 40px;
-      }
-      div.row {
-        border: 1px solid;
+      .asset {
+        padding: 2.5% 0%;
       }
     </style>
   </head>
@@ -186,6 +177,44 @@
           <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
           <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
         </div>
+    </div>
+
+    <!-- Beyond this part the marketing copy begins. -->
+    <!-- https://developer.mozilla.org/en-US/docs/WebCSS/text-align -->
+    <!-- http://twitter.github.io/bootstrap/base-css.html#images -->
+    <!-- http://pacehold.it -->
+    <div class="row-fluid section1">
+      <div class="span5 offset1 asset">
+        <img class="img-polaroid" src="http://placehold.it/480x300">
+      </div>
+      <div class="span5 copy">
+        <p>
+          Bacon ipsum dolor sit amet hamburger quis jowl, bresaola 
+          consectetur est in dolor do fatback jerky shank. Pork chop 
+          tail ullamco, laboris incididunt chuck tempor cillum filet 
+          mignon non ad bacon ut dolore. Incididunt aliqua nulla aute 
+          in, proident sirloin. Labore minim ullamco, rump consectetur 
+          mollit meatball venison ut ut turkey. Dolore jerky pork chop 
+          bresaola corned beef hamburger swine kielbasa. 
+        </p>
+      </div>
+    </div>
+
+    <div class="row-fluid section2">
+      <div class="span5 offset1 copy copy-right">
+        <p>
+          Bacon ipsum dolor sit amet hamburger quis jowl, bresaola 
+          consectetur est in dolor do fatback jerky shank. Pork chop 
+          tail ullamco, laboris incididunt chuck tempor cillum filet 
+          mignon non ad bacon ut dolore. Incididunt aliqua nulla aute 
+          in, proident sirloin. Labore minim ullamco, rump consectetur 
+          mollit meatball venison ut ut turkey. Dolore jerky pork chop 
+          bresaola corned beef hamburger swine kielbasa. 
+        </p>
+      </div>
+      <div class="span5 asset">
+        <img class="img-polaroid" src="http://placehold.it/480x300">
+      </div>
     </div>
   </body>
 </html>
